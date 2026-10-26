@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bake & Bloom | ร้านเค้กโฮมเมดสไตล์มินิมอล อบสดใหม่ทุกวัน</title>
+  <meta name="description" content="ร้านเค้กโฮมเมดสไตล์มินิมอล คัดสรรวัตถุดิบพรีเมียม หวานน้อย ละมุนลิ้น รับสั่งทำเค้กวันเกิดและโอกาสพิเศษ">
+  
+  <!-- Google Fonts: Prompt & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon"><i class="fa-solid fa-cake-candles"></i></span>
+        <div class="logo-text">
+          <span class="brand-name">Bake & Bloom</span>
+          <span class="brand-tagline">Artisan Homemade Bakery</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">หน้าแรก</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">เรื่องราวของเรา</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">เมนูแนะนำ</a></li>
+          <li class="nav-item"><a href="#how-to-order" class="nav-link">วิธีสั่งเค้ก</a></li>
+          <li class="nav-item"><a href="#reviews" class="nav-link">รีวิวจากลูกค้า</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">ติดต่อเรา</a></li>
+        </ul>
+        <div class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-block">สั่งจองเค้ก</a>
+        </div>
+      </nav>
+
+      <!-- CTA Button for Desktop -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <i class="fa-brands fa-line"></i> สั่งจองเค้ก
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            อบสดใหม่จากเตาทุกวัน • 100% เนยแท้พรีเมียม
+          </div>
+          <h1 class="hero-title">
+            เติมเต็มทุกช่วงเวลาพิเศษ ด้วย<span class="highlight">เค้กโฮมเมด</span> สไตล์มินิมอล
+          </h1>
+          <p class="hero-description">
+            เราคัดสรรวัตถุดิบนำเข้าชั้นดี สูตรหวานน้อย ละมุนลิ้น ใส่ใจในทุกรายละเอียด 
+            เพื่อให้ทุกคำที่คุณทาน คือความสุขที่อบอุ่นและน่าจดจำ
+          </p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary btn-lg">
+              สำรวจเมนูเค้ก <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline btn-lg">
+              สั่งทำเค้กวันเกิด
+            </a>
+          </div>
+
+          <!-- Highlight Badges -->
+          <div class="hero-features">
+            <div class="feature-item">
+              <i class="fa-solid fa-seedling"></i>
+              <span>หวานน้อย ดีต่อใจ</span>
+            </div>
+            <div class="feature-item">
+              <i class="fa-solid fa-heart"></i>
+              <span>ไร้วัตถุกันเสีย</span>
+            </div>
+            <div class="feature-item">
+              <i class="fa-solid fa-truck-fast"></i>
+              <span>ส่งห้องเย็นทั่ว กทม.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="image-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1000&auto=format&fit=crop" 
+              alt="Signature Strawberry Cream Cake" 
+              class="hero-img"
+              loading="eager"
+            >
+            <div class="floating-card top-right">
+              <div class="card-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="card-info">
+                <strong>4.9 / 5.0</strong>
+                <small>จากรีวิวกว่า 1,200+ ออเดอร์</small>
+              </div>
+            </div>
+            <div class="floating-card bottom-left">
+              <span class="badge-tag">Signature</span>
+              <strong>Strawberry Shortcake</strong>
+              <small>ครีมสดแท้จากฮอกไกโด</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-column">
+            <div class="about-image-stack">
+              <img 
+                src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop" 
+                alt="Chef decorating artisan cake" 
+                class="about-img-main"
+                loading="lazy"
+              >
+              <div class="about-experience-badge">
+                <span class="exp-number">5+</span>
+                <span class="exp-text">ปีแห่งความตั้งใจ<br>ในขนมอบโฮมเมด</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-column">
+            <div class="section-badge">ABOUT OUR BAKERY</div>
+            <h2 class="section-title">
+              อบด้วยหัวใจ เหมือนทำให้<br>คนในครอบครัวทาน
+            </h2>
+            <p class="about-lead">
+              <strong>Bake & Bloom</strong> เกิดขึ้นจากความหลงใหลในกลิ่นหอมของแป้งและเนยในเช้าวันหยุด 
+              เราเชื่อว่าเค้กที่ดีไม่ใช่แค่ความสวยงามภายนอก แต่คือรสชาติที่ลงตัว กลมกล่อม และทานได้หมดชิ้นโดยไม่เลี่ยน
+            </p>
+            <p class="about-body">
+              เค้กทุกก้อนของเราทำสดใหม่แบบ Made to Order ไม่มีการทำค้างไว้ในตู้แช่ข้ามสัปดาห์ 
+              ใช้ครีมสดแท้จากนมวัว 100% ไม่ผสมมาการีน ไม่ใส่วัตถุกันเสีย และสามารถปรับระดับความหวานหรือออกแบบลวดลายตามสไตล์ที่คุณต้องการได้
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-box">
+                <div class="pillar-icon"><i class="fa-solid fa-award"></i></div>
+                <h4>วัตถุดิบเกรดพรีเมียม</h4>
+                <p>เนยแท้นำเข้าจากฝรั่งเศสและผลไม้สดคัดพิเศษทุกล็อต</p>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h4>คัสตอมได้ตามใจ</h4>
+                <p>รับเขียนข้อความ ออกแบบเค้กมินิมอลให้เข้ากับทุกธีมงาน</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SIGNATURE MENU SECTION ==================== -->
+    <section class="menu section-padding" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">OUR CREATIONS</div>
+          <h2 class="section-title">เมนูซิกเนเจอร์ยอดนิยม</h2>
+          <p class="section-subtitle">
+            เค้กสูตรพิเศษที่ลูกค้าสั่งซ้ำมากที่สุด อบสดใหม่ในทุกเช้าเพื่อความสดฉ่ำ
+          </p>
+        </div>
+
+        <!-- Filter Buttons (Demo/Interactive) -->
+        <div class="menu-filters">
+          <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+          <button class="filter-btn" data-filter="birthday">เค้กวันเกิด & มินิมอล</button>
+          <button class="filter-btn" data-filter="cheese">ชีสเค้ก & ทาร์ต</button>
+          <button class="filter-btn" data-filter="chiffon">ชิฟฟอน & เค้กชา</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid">
+          <!-- Card 1 -->
+          <div class="menu-card" data-category="birthday">
+            <div class="card-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop" 
+                alt="Strawberry Shortcake" 
+                loading="lazy"
+              >
+              <span class="card-badge bestseller">Best Seller</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3 class="card-title">Strawberry Shortcake</h3>
+                <span class="card-price">฿650 <small>/ 1 ปอนด์</small></span>
+              </div>
+              <p class="card-desc">
+                เนื้อสปันจ์เค้กนุ่มละลายในปาก สลับชั้นด้วยครีมสดฮอกไกโดแท้ และสตรอว์เบอร์รีสดรสหวานอมเปรี้ยวชื่นใจ
+              </p>
+              <div class="card-footer">
+                <span class="flavor-tag"><i class="fa-regular fa-clock"></i> สั่งล่วงหน้า 1 วัน</span>
+                <a href="#contact" class="order-link">สั่งเค้กนี้ <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="menu-card" data-category="cheese">
+            <div class="card-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop" 
+                alt="Basque Burnt Cheesecake" 
+                loading="lazy"
+              >
+              <span class="card-badge chef-pick">Signature</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3 class="card-title">Basque Burnt Cheesecake</h3>
+                <span class="card-price">฿590 <small>/ 1 ปอนด์</small></span>
+              </div>
+              <p class="card-desc">
+                ชีสเค้กหน้าไหม้สไตล์สเปน กลิ่นคาราเมลหอมกรุ่น เนื้อสัมผัสตรงกลางเนียนนุ่มเยิ้ม ครีมชีสแท้เข้มข้นไม่เลี่ยน
+              </p>
+              <div class="card-footer">
+                <span class="flavor-tag"><i class="fa-regular fa-clock"></i> อบใหม่ทุกวัน</span>
+                <a href="#contact" class="order-link">สั่งเค้กนี้ <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="menu-card" data-category="birthday">
+            <div class="card-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop" 
+                alt="Korean Minimalist Cake" 
+                loading="lazy"
+              >
+              <span class="card-badge new-item">Custom</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3 class="card-title">Korean Minimalist Cake</h3>
+                <span class="card-price">฿750 <small>/ 1 ปอนด์</small></span>
+              </div>
+              <p class="card-desc">
+                เค้กปาดครีมมินิมอลสไตล์เกาหลี เลือกโทนสีได้เอง พร้อมเขียนข้อความน่ารักๆ ด้วยบัตเตอร์ครีมสูตรเบาพิเศษ
+              </p>
+              <div class="card-footer">
+                <span class="flavor-tag"><i class="fa-regular fa-clock"></i> สั่งล่วงหน้า 2 วัน</span>
+                <a href="#contact" class="order-link">สั่งเค้กนี้ <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="menu-card" data-category="chiffon">
+            <div class="card-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop" 
+                alt="Dark Chocolate Fudge Cake" 
+                loading="lazy"
+              >
+              <span class="card-badge bestseller">Intense</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3 class="card-title">Dark Choc 70% Fudge</h3>
+                <span class="card-price">฿690 <small>/ 1 ปอนด์</small></span>
+              </div>
+              <p class="card-desc">
+                คนรักช็อกโกแลตต้องหลงรัก ช็อกโกแลตกานาชแท้จากเบลเยียม 70% รสชาติเข้มข้น หวานน้อย ตัดกับเนื้อเค้กชุ่มฉ่ำ
+              </p>
+              <div class="card-footer">
+                <span class="flavor-tag"><i class="fa-regular fa-clock"></i> อบใหม่ทุกวัน</span>
+                <a href="#contact" class="order-link">สั่งเค้กนี้ <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="menu-card" data-category="chiffon">
+            <div class="card-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=800&auto=format&fit=crop" 
+                alt="Earl Grey Chiffon" 
+                loading="lazy"
+              >
+              <span class="card-badge chef-pick">Aroma</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3 class="card-title">Earl Grey Caramel Chiffon</h3>
+                <span class="card-price">฿550 <small>/ 1 ปอนด์</small></span>
+              </div>
+              <p class="card-desc">
+                ชิฟฟอนชาเอิร์ลเกรย์อังกฤษแท้ กลิ่นเบอร์กาม็อตหอมละมุน เสิร์ฟคู่กับซอสโฮมเมดซอลต์คาราเมลเคี่ยวเอง
+              </p>
+              <div class="card-footer">
+                <span class="flavor-tag"><i class="fa-regular fa-clock"></i> สั่งล่วงหน้า 1 วัน</span>
+                <a href="#contact" class="order-link">สั่งเค้กนี้ <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="menu-card" data-category="cheese">
+            <div class="card-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1519869325930-281384150729?q=80&w=800&auto=format&fit=crop" 
+                alt="Lemon Curd Meringue Tart" 
+                loading="lazy"
+              >
+              <span class="card-badge new-item">Fresh</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3 class="card-title">Lemon Meringue Tart</h3>
+                <span class="card-price">฿490 <small>/ ถาด 6 นิ้ว</small></span>
+              </div>
+              <p class="card-desc">
+                ทาร์ตแป้งกรุบกรอบ สอดไส้เลมอนเคิร์ดแท้รสเปรี้ยวจี๊ดสดชื่น ท็อปด้วยอิตาเลียนเมอแรงค์เผาไฟอ่อนๆ นุ่มละมุน
+              </p>
+              <div class="card-footer">
+                <span class="flavor-tag"><i class="fa-regular fa-clock"></i> อบใหม่ทุกวัน</span>
+                <a href="#contact" class="order-link">สั่งเค้กนี้ <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-custom-note">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>ต้องการเค้กขนาด 2 ปอนด์ขึ้นไป หรือออกแบบเฉพาะบุคคลสำหรับงานแต่งและอีเวนต์ สามารถแชทคุยกับเราได้เลยครับ</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW TO ORDER ==================== -->
+    <section class="how-to-order section-padding bg-alt" id="how-to-order">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">ORDERING PROCESS</div>
+          <h2 class="section-title">สั่งเค้กง่ายๆ ใน 3 ขั้นตอน</h2>
+          <p class="section-subtitle">
+            เราดูแลออเดอร์ของคุณอย่างใกล้ชิด เพื่อให้ได้เค้กที่ตรงใจที่สุด
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon"><i class="fa-solid fa-cake-candles"></i></div>
+            <h3>เลือกรสชาติและขนาด</h3>
+            <p>เลือกเมนูซิกเนเจอร์ที่ชอบ หรือส่งรูปเรฟเฟอเรนซ์แบบเค้กที่ต้องการให้เราช่วยประเมิน</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-icon"><i class="fa-brands fa-line"></i></div>
+            <h3>ทักแชทบอกรายละเอียด</h3>
+            <p>แจ้งวันที่ต้องการรับ ข้อความบนหน้าเค้ก และพิกัดจัดส่งผ่านทาง LINE Official ของเรา</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon"><i class="fa-solid fa-van-shuttle"></i></div>
+            <h3>รอรับความอร่อยถึงที่</h3>
+            <p>เค้กจะถูกอบใหม่ตามรอบเวลา และจัดส่งด้วยรถควบคุมความเย็น หรือรับหน้าร้านได้ทันที</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== REVIEWS / TESTIMONIALS ==================== -->
+    <section class="reviews section-padding" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge">HAPPY CUSTOMERS</div>
+          <h2 class="section-title">ความประทับใจจากลูกค้า</h2>
+          <p class="section-subtitle">
+            ความสุขของคุณคือแรงบันดาลใจให้เราอบขนมอย่างตั้งใจในทุกๆ วัน
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              “สั่ง Strawberry Shortcake วันเกิดคุณแม่ คุณแม่ชมไม่หยุดเลยค่ะว่าครีมนุ่มมาก หวานกำลังดี ไม่เลี่ยนเลย 
+              ผลไม้สดหวานฉ่ำ กลายเป็นร้านประจำของที่บ้านไปแล้วค่ะ”
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">คุณนลิน</div>
+              <div class="reviewer-info">
+                <strong>คุณนลิน ว.</strong>
+                <span>ลูกค้าประจำย่านอารีย์</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              “บาสก์ชีสเค้กอร่อยแสงออกปากมาก! เนื้อครีมมี่เนียนนุ่ม หอมคาราเมลสุดๆ แพ็กเกจจิ้งใส่กล่องผูกโบว์สวยมินิมอลมาก เอาไปเป็นของขวัญวันเกิดเพื่อนชอบทุกคนครับ”
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">คุณภูมิ</div>
+              <div class="reviewer-info">
+                <strong>คุณภูมิ พ.</strong>
+                <span>สุขุมวิท 39</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              “แอดมินให้คำแนะนำดีมากค่ะ สั่งทำเค้กมินิมอลเกาหลีเขียนข้อความ ออกมาน่ารักตรงตามแบบเป๊ะๆ ถ่ายรูปขึ้นกล้องสุดๆ แถมรสช็อกโกแลตฟัดจ์เข้มข้นถูกใจมาก”
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">คุณมีน</div>
+              <div class="reviewer-info">
+                <strong>คุณมีน ช.</strong>
+                <span>สั่งเดลิเวอรีลาดพร้าว</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT & LOCATION ==================== -->
+    <section class="contact section-padding bg-alt" id="contact">
+      <div class="container">
+        <div class="contact-card-wrapper">
+          <div class="contact-info-col">
+            <div class="section-badge">VISIT & CONTACT</div>
+            <h2 class="section-title">ติดต่อสั่งเค้ก & แวะมาหาเรา</h2>
+            <p class="contact-desc">
+              หากต้องการสั่งจองเค้กล่วงหน้า สอบถามแบบเค้กพิเศษ หรือแวะมาเลือกชิมที่หน้าร้าน สามารถติดต่อเราได้ตามช่องทางด้านล่างนี้ครับ
+            </p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <div class="item-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="item-text">
+                  <strong>หน้าร้านสตูดิโอ</strong>
+                  <p>128/9 ซอยสุขุมวิท 49 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="item-icon"><i class="fa-solid fa-clock"></i></div>
+                <div class="item-text">
+                  <strong>เวลาเปิดบริการ</strong>
+                  <p>เปิดทุกวัน: 09:00 - 18:30 น. (หยุดทุกวันอังคาร)</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="item-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="item-text">
+                  <strong>เบอร์โทรศัพท์</strong>
+                  <p><a href="tel:0987654321">098-765-4321</a> / <a href="tel:021234567">02-123-4567</a></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Buttons -->
+            <div class="social-links">
+              <a href="https://line.me" target="_blank" rel="noopener" class="social-btn line" title="LINE Official">
+                <i class="fa-brands fa-line"></i> LINE @bakeandbloom
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener" class="social-btn instagram" title="Instagram">
+                <i class="fa-brands fa-instagram"></i> @bakeandbloom.bkk
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener" class="social-btn facebook" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i> Bake & Bloom Cafe
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Inquiry / Booking Form -->
+          <div class="contact-form-col">
+            <div class="form-box">
+              <h3 class="form-title">ส่งข้อความสอบถามคิวเค้ก</h3>
+              <p class="form-subtitle">กรอกข้อมูลเบื้องต้น แล้วเจ้าหน้าที่จะติดต่อกลับผ่าน LINE ทันที</p>
+              
+              <form id="cake-inquiry-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+                <div class="form-group">
+                  <label for="cust-name">ชื่อผู้สั่งเค้ก</label>
+                  <input type="text" id="cust-name" placeholder="เช่น คุณสมศรี สุขใจ" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="cust-tel">เบอร์โทรศัพท์</label>
+                    <input type="tel" id="cust-tel" placeholder="08x-xxx-xxxx" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="cust-line">LINE ID</label>
+                    <input type="text" id="cust-line" placeholder="ไอดีไลน์สำหรับติดต่อกลับ">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="cust-cake">สนใจเค้กเมนูไหน</label>
+                  <select id="cust-cake">
+                    <option value="strawberry">Strawberry Shortcake (เค้กสตรอว์เบอร์รี)</option>
+                    <option value="basque">Basque Burnt Cheesecake (บาสก์ชีสเค้ก)</option>
+                    <option value="korean">Korean Minimalist Cake (เค้กสไตล์เกาหลี)</option>
+                    <option value="choc">Dark Chocolate 70% Fudge (ช็อกโกแลตฟัดจ์)</option>
+                    <option value="earlgrey">Earl Grey Chiffon (ชิฟฟอนชาเอิร์ลเกรย์)</option>
+                    <option value="custom">เค้กสั่งทำพิเศษ / ออกแบบเอง</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="cust-date">วันที่ต้องการรับเค้ก</label>
+                  <input type="date" id="cust-date">
+                </div>
+
+                <div class="form-group">
+                  <label for="cust-note">ข้อความบนหน้าเค้ก / รายละเอียดเพิ่มเติม</label>
+                  <textarea id="cust-note" rows="3" placeholder="เช่น เขียนหน้าเค้กว่า 'Happy Birthday Mom' หรือต้องการลดหวานพิเศษ"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <i class="fa-solid fa-paper-plane"></i> ส่งคำขอจองคิวเค้ก
+                </button>
+              </form>
+
+              <div id="form-success-msg" class="form-success-alert" style="display: none;">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>บันทึกข้อมูลเรียบร้อยแล้วครับ!</strong>
+                  <p>ระบบจำลองได้บันทึกคำสั่งของคุณแล้ว เดี๋ยวเราทัก LINE ไปยืนยันแบบเค้กนะครับ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i class="fa-solid fa-cake-candles"></i> Bake & Bloom
+        </div>
+        <p>เค้กโฮมเมดสไตล์มินิมอล อบสดใหม่ด้วยรักและวัตถุดิบคุณภาพในทุกวัน</p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>เมนูลัด</h4>
+        <ul>
+          <li><a href="#home">หน้าแรก</a></li>
+          <li><a href="#about">เรื่องราวของเรา</a></li>
+          <li><a href="#menu">เมนูแนะนำ</a></li>
+          <li><a href="#how-to-order">วิธีสั่งเค้ก</a></li>
+          <li><a href="#contact">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-hours">
+        <h4>เวลาทำการ</h4>
+        <p>จันทร์, พุธ - อาทิตย์: 09:00 - 18:30 น.</p>
+        <p class="closed-tag">หยุดทุกวันอังคาร</p>
+        <p class="service-note">จัดส่งผ่าน Grab / Lineman / รถห้องเย็นทั่วกรุงเทพฯ และปริมณฑล</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>© 2026 Bake & Bloom Artisan Bakery. All rights reserved. • พัฒนาร่วมกันอย่างค่อยเป็นค่อยไป</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick LINE Order Button -->
+  <a href="#contact" class="floating-line-btn" title="แชทสั่งเค้กผ่าน LINE">
+    <i class="fa-brands fa-line"></i>
+    <span class="btn-tooltip">สั่งเค้กทางไลน์</span>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
